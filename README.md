@@ -52,7 +52,8 @@ add here
 
 ## **Data Source**
 The data used in this project is sourced from the [????](????), [????](???), and [?????](?????)
-
+The source of the data comes from a csv from Kaggle called Top 10000 songs on Spotify 1950-Now. ![image](https://github.com/user-attachments/assets/400c33bd-2e44-46f9-bc30-37c852841539)
+Track plays on Spotify was pulled from the Spotify track URI
 
 ## **Development Process**
 * add here
