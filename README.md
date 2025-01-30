@@ -19,8 +19,7 @@
   - [**Contact**](#contact)
 
 ## **Project Overview**
-![Dashboard Screenshot](add image here)<br><br>
-Add description here
+The aim of our project is to look at the change in popularity of music genres across decades. The data we will be working with is genres and popularity scores. We will look at the most popular songs and what genre they belong to by decade. The popularity assessment comes from rankings based of off the ARIA (Australian Recording Industry, Billboard Charts, and the top 10000 Songs on Spotify. We will be starting with the 1950’s and going all the way up to the 2020’s. We will be breaking up the many micro genres out data set has into more standard broad genres to give a more general look at the data.![image](https://github.com/user-attachments/assets/04aed0f4-b4d8-478a-b93a-024e851f4466)
 
 
 ## **Features**
@@ -31,10 +30,9 @@ Add description here
 * 2. Part 2 of interactive diagram if needed can be found here [Github Pages maybe Part 2](group github page)
 
 ## **Technologies / Dependencies Needed and Used**
-* list as needed.
-* etc
-* etc
-
+* Pandas
+* SQL
+* Postgress
 
 ## **How to Run the Application**
 add here
@@ -48,12 +46,12 @@ add here
 ![Sample Image3](sample image3.png)
 
 ## **Visualization Details**
-add here
+- A drop down that displays a bar graph that lists genre and popularity scores/track plays in a given decade.
+- A drop down displays a line graph that tracks popularity scores and track lists across all the decades we have data for.
 
 ## **Data Source**
-The data used in this project is sourced from the [????](????), [????](???), and [?????](?????)
-The source of the data comes from a csv from Kaggle called Top 10000 songs on Spotify 1950-Now. 
-Track plays on Spotify was pulled from the Spotify track URI
+  - A Kaggle called Top 10000 songs on Spotify 1950-Now. 
+  - Track plays on Spotify was pulled from the Spotify track URI
 
 ## **Development Process**
 * add here
