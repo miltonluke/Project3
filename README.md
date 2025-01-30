@@ -19,7 +19,7 @@
   - [**Contact**](#contact)
 
 ## **Project Overview**
-The aim of our project is to look at the change in popularity of music genres across decades. The data we will be working with is genres and popularity scores. We will look at the most popular songs and what genre they belong to by decade. The popularity assessment comes from rankings based of off the ARIA (Australian Recording Industry, Billboard Charts, and the top 10000 Songs on Spotify. We will be starting with the 1950’s and going all the way up to the 2020’s. We will be breaking up the many micro genres out data set has into more standard broad genres to give a more general look at the data.![image](https://github.com/user-attachments/assets/04aed0f4-b4d8-478a-b93a-024e851f4466)
+The aim of our project is to look at the change in popularity of music genres across decades. The data we will be working with is genres and popularity scores. We will look at the most popular songs and what genre they belong to by decade. The popularity assessment comes from rankings based of off the ARIA (Australian Recording Industry, Billboard Charts, and the top 10000 Songs on Spotify. We will be starting with the 1950’s and going all the way up to the 2020’s. We will be breaking up the many micro genres out data set has into more standard broad genres to give a more general look at the data.
 
 
 ## **Features**
