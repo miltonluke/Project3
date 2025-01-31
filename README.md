@@ -10,8 +10,9 @@
   - [**How to Run the Application**](#how-to-run-the-application)
   - [**Visualizations**](#visualizations)
   - [**Visualization Details**](#visualization-details)
+  - [**Visualization Details**](#visualization-details-1)
   - [**Data Source**](#data-source)
-  - [**Development Process**](#development-process)
+  - [**Team Responsibilities**](#team-responsibilities)
   - [**Sources**](#sources)
   - [**Additional Information**](#additional-information)
   - [**License**](#license)
@@ -33,17 +34,21 @@ The aim of our project is to look at the change in popularity of music genres ac
 * Pandas
 * SQL
 * Postgress
+* re
+* defaultdict
+* tabulate
+* ggplot
+* 
 
 ## **How to Run the Application**
 add here
 
 ## **Visualizations**
-![Sample Pie Chart](images/img_piechart.svg)
-![Sample Image](sample image.png)
+![ggplot 1925 - 2030](images\ggplot_1925_2030.svg)
 
-![Sample Image2 ](sample image2.png)
+![ggplot 1955 - 2030](images\ggplot_1955_2030.svg)
 
-![Sample Image3](sample image3.png)
+![Interactive map 1](images\spotify_stream_total_plot.html)
 
 ## **Visualization Details**
 - A drop down that displays a bar graph that lists genre and track plays in a given year.
@@ -62,10 +67,10 @@ add here
 
 
 ## **Sources**
-* https://app.soundcharts.com/app/market/tracks?filters=eyJzIjoiYXVkaWVuY2Uuc3BvdGlmeXxkZXNjfG1vbnRofHRvdGFsIiwiZiI6eyJmYyI6IkFMTF9DT1VOVFJJRVMiLCJmdHNnIjoiQUxMX0dFTlJFUyJ9LCJtaSI6W119
+* [Soundcharts](https://app.soundcharts.com/app/market/tracks?filters=eyJzIjoiYXVkaWVuY2Uuc3BvdGlmeXxkZXNjfG1vbnRofHRvdGFsIiwiZiI6eyJmYyI6IkFMTF9DT1VOVFJJRVMiLCJmdHNnIjoiQUxMX0dFTlJFUyJ9LCJtaSI6W119)
 *
 *
-*
+* [ggplot](https://realpython.com/ggplot-python/)
 
 ## **Additional Information**
 * Initial Data Cleaning......
