@@ -49,6 +49,8 @@ add here
 - A drop down that displays a bar graph that lists genre and track plays in a given year.
 - A drop down displays a line graph that tracks plays per genre across all the relase years of 2015 to 2024.
 
+## **Visualization Details**
+- Spotify info
 ## **Data Source**
   - Soundcharts 
 
