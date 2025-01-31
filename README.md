@@ -52,9 +52,12 @@ add here
 ## **Data Source**
   - Soundcharts 
 
-## **Development Process**
-* add here
-* *link to Project 3 Proposal.docx ???
+## **Team Responsibilities**
+- Lynn: Working on creating the PowerPoint presentation that will be given to the class.
+- Matt: Matt is cleaned up the data from csv file. Using regex to pull out the genre names.
+- Dylan: Setting up the sql and postgress for the data. Working on cleaing csv’s.
+
+
 
 ## **Sources**
 * https://app.soundcharts.com/app/market/tracks?filters=eyJzIjoiYXVkaWVuY2Uuc3BvdGlmeXxkZXNjfG1vbnRofHRvdGFsIiwiZiI6eyJmYyI6IkFMTF9DT1VOVFJJRVMiLCJmdHNnIjoiQUxMX0dFTlJFUyJ9LCJtaSI6W119
