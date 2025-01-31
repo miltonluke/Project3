@@ -46,8 +46,8 @@ add here
 ![Sample Image3](sample image3.png)
 
 ## **Visualization Details**
-- A drop down that displays a bar graph that lists genre and popularity scores/track plays in a given decade.
-- A drop down displays a line graph that tracks popularity scores and track lists across all the decades we have data for.
+- A drop down that displays a bar graph that lists genre and track plays in a given year.
+- A drop down displays a line graph that tracks plays per genre across all the relase years of 2015 to 2024.
 
 ## **Data Source**
   - Soundcharts 
