@@ -19,7 +19,7 @@
   - [**Contact**](#contact)
 
 ## **Project Overview**
-The aim of our project is to look at the change in popularity of music genres across decades. The data we will be working with is genres and popularity scores. We will look at the most popular songs and what genre they belong to by decade. The popularity assessment comes from rankings based of off the ARIA (Australian Recording Industry, Billboard Charts, and the top 10000 Songs on Spotify. We will be starting with the 1950’s and going all the way up to the 2020’s. We will be breaking up the many micro genres out data set has into more standard broad genres to give a more general look at the data.
+The aim of our project is to look at the change in popularity of music genres across the years of 2015 to 2024. The data we will be working with is Spotify track streams We will be looking at the number of total streams a genre has on spotify. To do this we will first divide the tracks into years they were released. We will then get the genre of each track within and divide the tracks into the genre they belong to. Finally we will add all the number of track streams within a given genre and year and compare those to other genres within the same year. 
 
 
 ## **Features**
@@ -50,15 +50,14 @@ add here
 - A drop down displays a line graph that tracks popularity scores and track lists across all the decades we have data for.
 
 ## **Data Source**
-  - A Kaggle called Top 10000 songs on Spotify 1950-Now. 
-  - Track plays on Spotify was pulled from the Spotify track URI
+  - Soundcharts 
 
 ## **Development Process**
 * add here
 * *link to Project 3 Proposal.docx ???
 
 ## **Sources**
-* https://www.kaggle.com/datasets/joebeachcapital/top-10000-spotify-songs-1960-now
+* https://app.soundcharts.com/app/market/tracks?filters=eyJzIjoiYXVkaWVuY2Uuc3BvdGlmeXxkZXNjfG1vbnRofHRvdGFsIiwiZiI6eyJmYyI6IkFMTF9DT1VOVFJJRVMiLCJmdHNnIjoiQUxMX0dFTlJFUyJ9LCJtaSI6W119
 *
 *
 *
