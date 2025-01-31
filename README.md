@@ -44,11 +44,11 @@ The aim of our project is to look at the change in popularity of music genres ac
 add here
 
 ## **Visualizations**
-![ggplot 1925 - 2030](images\ggplot_1925_2030.svg)
+![ggplot 1925 - 2030](images/ggplot_1925_2030.svg)
 
-![ggplot 1955 - 2030](images\ggplot_1955_2030.svg)
+![ggplot 1955 - 2030](images/ggplot_1955_2030.svg)
 
-![Interactive map 1](images\spotify_stream_total_plot.html)
+![Github Pages Interactive map 1](https://miltonluke.github.io/Project3/spotify_stream_total_plot.html)
 
 ## **Visualization Details**
 - A drop down that displays a bar graph that lists genre and track plays in a given year.
