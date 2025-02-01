@@ -31,13 +31,14 @@ The aim of our project is to look at the change in popularity of music genres ac
 * 2. Part 2 of interactive diagram if needed can be found here [Github Pages maybe Part 2](group github page)
 
 ## **Technologies / Dependencies Needed and Used**
-* Pandas
-* SQL
-* Postgress
-* re
-* defaultdict
-* tabulate
-* ggplot
+- **Pandas**: Used for handling and analyzing large datasets, particularly in tabular form (e.g., DataFrames).
+- **SQL**: Used for managing and querying relational databases. It allows you to retrieve, update, and manage data stored in a structured format.
+- **PostgreSQL**: A relational database management system (RDBMS) used for storing and querying structured data. It provides support for advanced SQL queries and is widely used in production environments for managing databases.
+- **re**: The regular expression (regex) library in Python. It provides a way to search for patterns in text, making it useful for text processing and data cleaning tasks.
+- **defaultdict**: A subclass of Python's built-in `dict` that provides a default value for missing keys. It helps simplify handling missing keys during data manipulation.
+- **tabulate**: A library used for creating well-formatted plain-text tables. It is helpful for presenting data in a readable format when working with outputs from Python scripts.
+- **plotnine**: A data visualization library in Python based on the grammar of graphics. It is used for creating static, high-quality plots and charts.
+- **nbformat**: A library for reading and writing Jupyter notebook files (`.ipynb`). It is used for programmatically working with Jupyter notebooks, especially for parsing or manipulating notebook content.
 * 
 
 ## **How to Run the Application**
