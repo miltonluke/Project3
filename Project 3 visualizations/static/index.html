@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Genre Analysis</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .chart-container {
+            min-height: 400px;
+            margin-bottom: 20px;
+        }
+        .header {
+            background: linear-gradient(to right, #1DB954, #191414);
+            color: white;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        .card {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+    <div class="header text-center">
+        <h1>Music Genre Analysis Dashboard</h1>
+        <p>Analyze music trends across years and genres</p>
+    </div>
+ 
+    <div class="container">
+        <!-- First Row -->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5>Select Year</h5>
+                        <select id="yearSelect" class="form-select mb-3"></select>
+                        <div id="yearStats">
+                            <h6>Statistics</h6>
+                            <div id="statsContent"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card">
+                    <div class="card-body chart-container">
+                        <div id="genreStreamsChart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+        <!-- Second Row -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body chart-container">
+                        <div id="genreCountChart"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body chart-container">
+                        <div id="trendChart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+        <!-- Third Row - New Charts -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body chart-container">
+                        <div id="songsPerYearChart"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body chart-container">
+                        <div id="artistBubbleChart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+        <!-- Fourth Row - New Charts -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body chart-container">
+                        <div id="genreHeatmap"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body chart-container">
+                        <div id="monthlyTrendChart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="./static/app.js"></script>
+</body>
+</html>

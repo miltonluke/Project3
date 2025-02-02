@@ -1,0 +1,38 @@
+# First make sure pandas is imported
+import pandas as pd
+import json
+ 
+# Create the JSON structure
+json_data = {
+    'raw_data': []
+}
+ 
+# Convert numeric columns to handle NaN values
+cleaned_tabulate_df['Spotify stream Total'] = cleaned_tabulate_df['Spotify stream Total'].fillna(0)
+cleaned_tabulate_df['Year Released'] = cleaned_tabulate_df['Year Released'].fillna(0)
+ 
+# Add each row to the raw_data array
+for index, row in cleaned_tabulate_df.iterrows():
+    try:
+        track_data = {
+            'song': str(row['Song']),
+            'song_genres': str(row['Song genres']),
+            'artist': str(row['Artist(s)']),
+            'spotify_streams': int(row['Spotify stream Total']),
+            'year_released': int(row['Year Released'])
+        }
+        json_data['raw_data'].append(track_data)
+    except Exception as e:
+        print(f"Error processing row {index}: {e}")
+        continue
+ 
+# Save to JSON file
+try:
+    with open('music_data.json', 'w', encoding='utf-8') as f:
+        json.dump(json_data, f, indent=4, ensure_ascii=False)
+    print("JSON file created successfully!")
+except Exception as e:
+    print(f"Error saving JSON file: {e}")
+ 
+# Verify the data
+print(f"Total records processed: {len(json_data['raw_data'])}")
