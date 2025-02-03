@@ -41,6 +41,10 @@
 - **plotnine**: A data visualization library in Python based on the grammar of graphics. It is used for creating static, high-quality plots and charts.
 - **nbformat**: A library for reading and writing Jupyter notebook files (`.ipynb`). It is used for programmatically working with Jupyter notebooks, especially for parsing or manipulating notebook content. (For whatever reason, we needed this)
 * **SQLiteStudio**: Used to Ctcreate and modify SQLite databases without needing to write complex SQL commands. rowse and edit tables, views, and indexes. Execute SQL queries and scripts directly from the interface. Export data and generate SQL code for table structures and data.
+*  **SQLite3**: Used for applications that need to store structured data locally without requiring a separate server or complex setup. It operates as a self-contained, serverless, zero-configuration database engine.
+*  **Plotly**: Plotly's Python is a graphing library that makes interactive, publication-quality graphs. Examples of how to make line plots, scatter plots, area charts, bar charts, error bars, box plots, histograms, heatmaps, subplots, multiple-axes, polar charts, and bubble charts.
+*  **JSON**:  Is a widely-used text-based format for data interchange. Used to effectively handle JSON data.
+
 
 ## **How to Run the Application**
 add here
@@ -95,13 +99,37 @@ add here
 * [plotnine](https://plotnine.org/)
 * [nbformat](https://nbformat.readthedocs.io/en/latest/)
 * [SQLiteStudio](https://sqlitestudio.pl/)
+* [SQLite3](https://docs.python.org/3/library/sqlite3.html)
+* [Plotly](https://plotly.com/python/)
+* [JSON](https://realpython.com/python-json/)
 
 ## **Additional Information**
 * Initial Data Cleaning......
-* Regex to filter Genres & to lower().......
+* Regex used to sort for just the numerical 4-digit year in `Project_3_test2.ipynb`:
+  - This was a unique case due to the data in the 'Release date'. A simple `.fillna` approach wouldn't work. We had to first fill NaN values with a string version of '1776' to avoid breaking the regex when encountering an integer instead of a string.
+  - Steps:
+    - Fill NaN values in 'Release date' with '1776' and convert to string:
+      ```python
+      df_cleaned['Year Released'] = df_cleaned['Release date'].fillna('1776').astype(str)
+      ```
+    - Extract the year from 'Year Released' using regex:
+      ```python
+      df_cleaned['Year Released'] = df_cleaned['Year Released'].str.extract(r'(\d{4})')
+      ```
+    - Fill any remaining NaN values in 'Year Released' with '1776':
+      ```python
+      df_cleaned['Year Released'] = df_cleaned['Year Released'].fillna('1776')
+      ```
+    - Convert the 'Year Released' column to integers for further mathematical operations:
+      ```python
+      df_cleaned['Year Released'] = df_cleaned['Year Released'].astype(int)
+      ```
+
+
+  
 * More info on Spotify / Streaming counting. (Add Link here to more reading in some document stored somewhere in the repo) [**Link**](#somewhere)
 * document
-* document
+
 
 ## **License**
 This project is licensed under the [GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007](./LICENSE) - see the LICENSE file for details here.
