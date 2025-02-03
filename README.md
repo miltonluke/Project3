@@ -47,8 +47,8 @@ add here
 
 ## **Visualizations**
 <div style="display: flex; justify-content: space-between;">
-    <img src="images/ggplot_1925_2030.svg" alt="ggplot 1925 - 2030" width="500">
-    <img src="images/ggplot_1955_2030.svg" alt="ggplot 1955 - 2030" width="500">
+    <img src="images/ggplot_1925_2030.svg" alt="ggplot 1925 - 2030" width="450">
+    <img src="images/ggplot_1955_2030.svg" alt="ggplot 1955 - 2030" width="450">
 </div>
 
 [Github Pages Interactive map 1](https://miltonluke.github.io/Project3/html/spotify_stream_total_plot.html)
