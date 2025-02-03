@@ -49,11 +49,13 @@ add here
 
 ![ggplot 1955 - 2030](images/ggplot_1955_2030.svg)
 
-[Github Pages Interactive map 1](https://miltonluke.github.io/Project3/spotify_stream_total_plot.html)
+[Github Pages Interactive map 1](https://miltonluke.github.io/Project3/html/spotify_stream_total_plot.html)
 
-[Github Pages Interactive plot 1](https://miltonluke.github.io/Project3/12plot_spotify_stream_total_1990_2025.html)
+[Github Pages Interactive plot 1](https://miltonluke.github.io/Project3/html/12plot_spotify_stream_total_1990_2025.html)
 
-[Github Pages Interactive plot 2](https://miltonluke.github.io/Project3/12plot_spotify_stream_total_2015_2025.html)
+[Github Pages Interactive plot 2](https://miltonluke.github.io/Project3/html/12plot_spotify_stream_total_2015_2025.html)
+
+[Github Pages Interactive plot 3](https://miltonluke.github.io/Project3/html/spotify_rock_streams_by_year.html")
 
 ## **Visualization Details**
 - A drop down that displays a bar graph that lists genre and track plays in a given year.
