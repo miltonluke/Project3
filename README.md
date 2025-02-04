@@ -48,7 +48,10 @@
 2. Open and run Project_3_test_2.ipynb notebook to setup and start cleaning.
 3. Open and run queries_and_visualizations.ipynb notebook to start running multiple queries on 1 set of the data.
 4. Open and run Genreyearpull.ipynb to start the interactive visualizations.
-5. Interact with visualization sample links below.
+5. Genreyearpull with convert pandas dataframe to jsonfile called spotify_complete_analysis.json
+6. Open all files in Project_3_visualizations which includes the spotify_complete_analysis.json, music_data.json, index.html,and the app.js file within the static folder
+7. Run index.html in liveserver 
+8. Interact with visualization sample links below.
 ## **Visualizations**
 <div style="display: flex; justify-content: space-between;">
     <img src="images/ggplot_1925_2030.svg" alt="ggplot 1925 - 2030" width="450">
@@ -74,8 +77,8 @@
 [Sample use of the Tabulate library](https://miltonluke.github.io/Project3/images/sample_tabulate.png)
 
 ## **Visualization Details**
-- A drop down that displays a bar graph that lists genre and track plays in a given year.
-- A drop down displays a line graph that tracks plays per genre across all the relase years of 2015 to 2024.
+- A drop down that displays a bar graph that gives the top 10 most streamed genres of a given year
+- A drop down displays a pie chart of the top ten most streamed genres by percentage 
 
 ## **Visualization Details**
 - Spotify info
@@ -84,9 +87,10 @@
 
 ## **Team Responsibilities**
 - Lynn: Working on creating the PowerPoint presentation that will be given to the class. 
-- Matt: Matt is cleaned up the data from csv file. Using regex to pull out the genre names.
-- Dylan: Setting up the sql and postgress for the data. Working on cleaing csv’s.
-
+- Matt: Matt is cleaned up the data from csv file. Found the soundcharts page the project pulled its data from. Worked on the gg plot visualizations
+- Dylan: Setting up the sql and postgress for the data. Worked on cleaining the csvs.
+- Luke: Worked on the javascript/Plotly visualizations.
+- Connor: Worked on the javascript/Plotly visualizations.
 
 
 ## **Sources**
