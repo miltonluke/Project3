@@ -78,7 +78,8 @@
 
 ## **Visualization Details**
 - A drop down that displays a bar graph that gives the top 10 most streamed genres of a given year
-- A drop down displays a pie chart of the top ten most streamed genres by percentage 
+- A drop down displays a pie chart of the top ten most streamed genres by percentage
+- A line graph that displays total streams across all genres over release years
 
 ## **Visualization Details**
 - Spotify info
