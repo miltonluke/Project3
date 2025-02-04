@@ -55,6 +55,8 @@ add here
     <img src="images/ggplot_1955_2030.svg" alt="ggplot 1955 - 2030" width="450">
 </div>
 
+[Genre Dashboard](https://miltonluke.github.io/Project3/Project_3_visualizations/index.html)
+
 [Github Pages Interactive map 1](https://miltonluke.github.io/Project3/html/spotify_stream_total_plot.html)
 
 [Github Pages Interactive plot 1](https://miltonluke.github.io/Project3/html/12plot_spotify_stream_total_1990_2025.html)
