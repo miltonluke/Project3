@@ -25,11 +25,8 @@
 
 
 ## **Features**
-* Something here
-* Something here
-* Interactive Map: Something here
-* 1. Part 1 of interactive diagram can be found here [Github Pages maybe???](group github page)
-* 2. Part 2 of interactive diagram if needed can be found here [Github Pages maybe Part 2](group github page)
+* Interactive Map: Allows users to interact with geographical data related to music genre popularity by hovering or using a slider on others.
+* Interactive Dashboard: Allows users to interact with data related to music genre popularity across many years using a drop down menu to filter based on year to visualize in an all encompassing dashboard.
 
 ## **Technologies / Dependencies Needed and Used**
 - **Pandas**: Used for handling and analyzing large datasets, particularly in tabular form (e.g., DataFrames).
