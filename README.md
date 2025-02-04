@@ -90,8 +90,8 @@
 - Lynn: Working on creating the PowerPoint presentation that will be given to the class. 
 - Matt: Matt is cleaned up the data from csv file. Found the soundcharts page the project pulled its data from. Worked on the gg plot visualizations
 - Dylan: Setting up the sql and postgress for the data. Worked on cleaining the csvs.
-- Luke: Worked on the javascript/Plotly visualizations.
-- Connor: Worked on the javascript/Plotly visualizations.
+- Luke: Worked on the javascript/Plotly visualizations. 
+- Connor: Worked on the javascript/Plotly visualizations. Wrote project summary.
 
 
 ## **Sources**
