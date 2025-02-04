@@ -105,6 +105,7 @@
 * [Plotly](https://plotly.com/python/)
 * [JSON](https://realpython.com/python-json/)
 * [releese.io](https://releese.io/article/what-counts-as-a-stream-on-spotify/)
+* [RapidAPI](https://rapidapi.com/DataFanatic/api/spotify-scraper/playground/apiendpoint_e96f3af6-417b-4ef0-b801-908fb9344e70)
 
 ## **Additional Information**
 * Initial Data Cleaning......
