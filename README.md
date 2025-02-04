@@ -47,8 +47,11 @@
 
 
 ## **How to Run the Application**
-add here
-
+1. Download and install Dependencies as needed.
+2. Open and run Project_3_test_2.ipynb notebook to setup and start cleaning.
+3. Open and run queries_and_visualizations.ipynb notebook to start running multiple queries on 1 set of the data.
+4. Open and run Genreyearpull.ipynb to start the interactive visualizations.
+5. Interact with visualization sample links below.
 ## **Visualizations**
 <div style="display: flex; justify-content: space-between;">
     <img src="images/ggplot_1925_2030.svg" alt="ggplot 1925 - 2030" width="450">
@@ -128,8 +131,7 @@ add here
       ```
 
 
-  
-* More info on Spotify / Streaming counting. (Add Link here to more reading in some document stored somewhere in the repo) [**Link**](#somewhere)
+* More info on Spotify / Streaming counting. [**What counts as a stream on Spotify?**](https://releese.io/article/what-counts-as-a-stream-on-spotify/)
 * document
 
 
