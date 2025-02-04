@@ -40,10 +40,10 @@
 - **tabulate**: A library used for creating well-formatted plain-text tables. It is helpful for presenting data in a readable format when working with outputs from Python scripts.
 - **plotnine**: A data visualization library in Python based on the grammar of graphics. It is used for creating static, high-quality plots and charts.
 - **nbformat**: A library for reading and writing Jupyter notebook files (`.ipynb`). It is used for programmatically working with Jupyter notebooks, especially for parsing or manipulating notebook content. (For whatever reason, we needed this)
-* **SQLiteStudio**: Used to Ctcreate and modify SQLite databases without needing to write complex SQL commands. rowse and edit tables, views, and indexes. Execute SQL queries and scripts directly from the interface. Export data and generate SQL code for table structures and data.
-*  **SQLite3**: Used for applications that need to store structured data locally without requiring a separate server or complex setup. It operates as a self-contained, serverless, zero-configuration database engine.
-*  **Plotly**: Plotly's Python is a graphing library that makes interactive, publication-quality graphs. Examples of how to make line plots, scatter plots, area charts, bar charts, error bars, box plots, histograms, heatmaps, subplots, multiple-axes, polar charts, and bubble charts.
-*  **JSON**:  Is a widely-used text-based format for data interchange. Used to effectively handle JSON data.
+- **SQLiteStudio**: Used to Ctcreate and modify SQLite databases without needing to write complex SQL commands. rowse and edit tables, views, and indexes. Execute SQL queries and scripts directly from the interface. Export data and generate SQL code for table structures and data.
+-  **SQLite3**: Used for applications that need to store structured data locally without requiring a separate server or complex setup. It operates as a self-contained, serverless, zero-configuration database engine.
+-  **Plotly**: Plotly's Python is a graphing library that makes interactive, publication-quality graphs. Examples of how to make line plots, scatter plots, area charts, bar charts, error bars, box plots, histograms, heatmaps, subplots, multiple-axes, polar charts, and bubble charts.
+- **JSON**:  Is a widely-used text-based format for data interchange. Used to effectively handle JSON data.
 
 
 ## **How to Run the Application**
@@ -86,7 +86,7 @@
   - Soundcharts (See "Additional Information" on How Spotify and Streaming  are Measured here) [**Additional Information**](#additional-information)
 
 ## **Team Responsibilities**
-- Lynn: Working on creating the PowerPoint presentation that will be given to the class.
+- Lynn: Working on creating the PowerPoint presentation that will be given to the class. 
 - Matt: Matt is cleaned up the data from csv file. Using regex to pull out the genre names.
 - Dylan: Setting up the sql and postgress for the data. Working on cleaing csv’s.
 
@@ -107,6 +107,7 @@
 * [SQLite3](https://docs.python.org/3/library/sqlite3.html)
 * [Plotly](https://plotly.com/python/)
 * [JSON](https://realpython.com/python-json/)
+* [releese.io](https://releese.io/article/what-counts-as-a-stream-on-spotify/)
 
 ## **Additional Information**
 * Initial Data Cleaning......
