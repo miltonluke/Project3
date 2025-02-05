@@ -136,7 +136,6 @@
 
 
 * More info on Spotify / Streaming counting. [**What counts as a stream on Spotify?**](https://releese.io/article/what-counts-as-a-stream-on-spotify/)
-* document
 
 
 ## **License**
